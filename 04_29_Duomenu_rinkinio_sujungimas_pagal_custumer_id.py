@@ -8,6 +8,8 @@ df2 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='CustomerDemographic')
 
 # Sujungiame excleio du datasheet
 data = pd.merge(df1, df2, on='customer_id')
+DataFrame_info = data.info()
+print(DataFrame_info)
 # print(data)
 # sutvarkome duomenis
 data['gender'] = data['gender'].replace({'M': 'Male', 'Femal': 'Female', 'U': 'Unknown', 'F': 'Female'})
