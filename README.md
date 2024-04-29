@@ -17,7 +17,10 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         * pardavimu skaicius pagal menesius
         * pardavimu skaicius pagal dviraciu tipus
         * pardavimus skaicius pagal dviraciu klalses
+        * sujungiame du skirtintgus excel sheet (pardavimu ir klientu duomenu pagal kliento_id),
+        kada galetume analizuoti duomenis pagal daugiau parametru
         * pirkimų skaičius pagal lytį
+        
 
 
 
