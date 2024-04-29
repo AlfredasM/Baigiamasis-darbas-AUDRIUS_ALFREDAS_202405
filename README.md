@@ -20,7 +20,7 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         * pardavimu skaicius pagal menesius
         
         * pardavimu skaicius pagal dviraciu tipus
-        ![image](https://github.com/AlfredasM/Baigiamasis-darbas-AUDRIUS_ALFREDAS_202405/assets/163419555/6de45f50-ab4e-4def-beca-b32246903dfd)
+        duomenu rinkinio info.JPG
 
         
         * pardavimus skaicius pagal dviraciu klalses
