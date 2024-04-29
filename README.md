@@ -13,12 +13,18 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 
     - duomenu rinkinio analize ir apzvalga naudojant 'PANDAS' :
         * duomenu rinkinio apzvalga
+        
         * visu pardavimu skaicius
+        
         * pardavimu skaicius pagal menesius
+        
         * pardavimu skaicius pagal dviraciu tipus
+        
         * pardavimus skaicius pagal dviraciu klalses
+        
         * sujungiame du skirtintgus excel sheet (pardavimu ir klientu duomenu pagal kliento_id),
         kada galetume analizuoti duomenis pagal daugiau parametru
+       
         * pirkimų skaičius pagal lytį
         
 
@@ -29,7 +35,10 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         * Kmeans
         * DBscan
         * RandomForest
-        * NaiveBytes
+        * KNeighbour
+        
+        - ROC AUC
+        -Elbow
 
 
      - duomenu rinkinio analize naudojant neuroninius tinklus:
