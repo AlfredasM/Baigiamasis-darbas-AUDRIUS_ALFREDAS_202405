@@ -16,7 +16,7 @@ kiek_pirko_pagal_lyti = data['gender'].value_counts()
 print(kiek_pirko_pagal_lyti)
 
 #nusibraizome grafika
-sns.barplot(x=kiek_pirko_pagal_lyti.index, y=kiek_pirko_pagal_lyti.values, palette='Set2')
+sns.barplot(x=kiek_pirko_pagal_lyti.index, y=kiek_pirko_pagal_lyti.values, palette='tab10')
 plt.title('Koks yra pirkeju pasiskirstymas pagal lyti')
 plt.xlabel('Vyras/Moteris/Nezinomas')
 plt.ylabel('Kiekis')
