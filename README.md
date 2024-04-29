@@ -13,7 +13,7 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 
     - duomenu rinkinio analize ir apzvalga naudojant 'PANDAS' :
         * duomenu rinkinio apzvalga
-        ![duomenu rinkinio info](https://github.com/AlfredasM/Baigiamasis-darbas-AUDRIUS_ALFREDAS_202405/assets/163419555/4255d951-66a6-44dc-bc62-e087bdd46e67)
+        duomenu rinkinio info.jpg
 
         * visu pardavimu skaicius
         
