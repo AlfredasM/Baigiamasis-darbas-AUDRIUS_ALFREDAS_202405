@@ -16,10 +16,11 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 ![img_1.png](img_1.png)
 
         * visu pardavimu skaicius
-![img_2.png](img_2.png)
+![img_10.png](img_10.png)
 
         * pardavimu skaicius pagal menesius
-        
+![img_2.png](img_2.png)\
+
         * pardavimu skaicius pagal dviraciu tipus
 ![img_3.png](img_3.png)
 
