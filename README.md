@@ -54,7 +54,7 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 ![img_18.png](img_18.png)
 
         * DBscan 
-![img_13.png](img_13.png)
+![img_19.png](img_19.png)
 
         * RandomForest
 ![img_11.png](img_11.png)
