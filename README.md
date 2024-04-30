@@ -28,10 +28,10 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         * pardavimus skaicius pagal dviraciu klalses
 ![img_4.png](img_4.png)
         
-        * sujungiame du skirtintgus excel sheet (pardavimu ir klientu duomenu pagal kliento_id),
+        * sujungiame tris skirtintgus excel sheet (pardavimu ir klientu duomenu pagal kliento_id, gyvenoji vieta),
         kada galetume analizuoti duomenis pagal daugiau parametru
 
-![img_5.png](img_5.png)
+![img_5.png](img_5.png) (REIKES PAKEISTI I 3 SHEET)
      
  
 
@@ -53,11 +53,20 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
      - duomenu rinkinio analaize naudojant masininio mokymo metodus:
 
         * Kmeans
-        * DBscan
+![img_12.png](img_12.png)
+
+        * DBscan (dar tikslinti jei bus laiko)
+![img_13.png](img_13.png)
+
         * RandomForest
-        * KNeighbour
+![img_11.png](img_11.png)
+
+        * AgglomerativeClustering
+![img_14.png](img_14.png)
+
         
         - ROC AUC
+
         -Elbow
 
 
