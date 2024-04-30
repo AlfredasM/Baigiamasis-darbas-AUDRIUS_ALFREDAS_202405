@@ -35,8 +35,16 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
  
 
        
-        * pirkimų skaičius pagal lytį
-![img_6.png](img_6.png)
+        * pirkimų skaičius pagal lytį skaiciavimas
+![img_9.png](img_9.png)
+
+
+
+        * pirkimu skaicius pagal lyti ir pagal apskritis grafikas
+![img_7.png](img_7.png)
+
+        * apskriciu zemelapis
+![img_8.png](img_8.png)
         
 
 
