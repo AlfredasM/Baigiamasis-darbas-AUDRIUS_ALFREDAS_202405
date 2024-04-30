@@ -65,9 +65,11 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 ![img_14.png](img_14.png)
 
         
-        - ROC AUC
+        - ROC AUC (ROC kreive pagal ONLINE ir fizinius pirkimus)
+![img_15.png](img_15.png)
 
-        -Elbow
+![img_16.png](img_16.png)
+        
 
 
      - duomenu rinkinio analize naudojant neuroninius tinklus:
