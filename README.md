@@ -53,8 +53,11 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         * Kmeans
 ![img_18.png](img_18.png)
 
-        * DBscan 
+        * DBscan taip pat paskaiciuojamas geriausias clusters kiekis pagal Elbow (su keliais bandymais gaunamas 1-2 optimalus skaicius)
 ![img_19.png](img_19.png)
+
+    *DBSCAN metodui Elbow grafikas
+![img_20.png](img_20.png)
 
         * RandomForest
 ![img_11.png](img_11.png)
@@ -62,6 +65,11 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         * AgglomerativeClustering
 ![img_14.png](img_14.png)
 
+        * LinearRegression
+![img_22.png](img_22.png)
+
+    - MSE, RMSE, R2 (metrikos - 'Mean squared error', 'Root Mean Squared Error', 'R-squared )
+![img_21.png](img_21.png)
         
         - ROC (ROC kreive pagal ONLINE ir fizinius pirkimus)
 ![img_15.png](img_15.png)
