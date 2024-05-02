@@ -65,5 +65,4 @@ for i in range(1, 3):
         })
 
 df = pd.DataFrame(bikes_list)
-
 #df.to_csv('99bikes_2024.csv', index=False)

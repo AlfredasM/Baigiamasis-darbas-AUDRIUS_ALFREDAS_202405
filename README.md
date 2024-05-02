@@ -75,7 +75,10 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 ![img_15.png](img_15.png)
 
 ![img_16.png](img_16.png)
-        
+
+        * Dviraciu kainu palyginimas 2017 metu ir 2024 metu (naudojant Scraping realiu kainu surinkimui)
+![img_24.png](img_24.png)
+
 
 
      - duomenu rinkinio analize naudojant neuroninius tinklus:
