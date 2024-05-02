@@ -83,9 +83,20 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 
      - duomenu rinkinio analize naudojant neuroninius tinklus:
 
-        *
-        *
-        *
+        * KerasClassifier
+![img_26.png](img_26.png)
+    
+    Model accuracy: 0.8027
+
+![img_28.png](img_28.png)
+
+![img_29.png](img_29.png)
+    -
+
+
+
+
+        
 
 
 Išvados, komentarai/pasi?lymai, sunkumai su kuriais teko susidurti:

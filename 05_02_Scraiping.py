@@ -14,8 +14,8 @@ for i in range(1, 4):
 
     for bike in bikes:
         bike_name = bike.find('strong', class_='product name product-item-name').text.strip()
-        full_price = bike.find('span', class_='full-price').text.strip().replace('$', '')
-        club_price = bike.find('span', class_='special-price').text.strip().replace('$', '')
+        full_price = bike.find('span', class_='full-price').text.strip().replace('$', '').replace(',', '')
+        club_price = bike.find('span', class_='special-price').text.strip().replace('$', '').replace(',', '')
         bike_class = 'road'
 
         bikes_list.append({
@@ -33,8 +33,8 @@ for i in range(1, 11):
 
     for bike in bikes:
         bike_name = bike.find('strong', class_='product name product-item-name').text.strip()
-        full_price = bike.find('span', class_='full-price').text.strip().replace('$', '')
-        club_price = bike.find('span', class_='special-price').text.strip().replace('$', '')
+        full_price = bike.find('span', class_='full-price').text.strip().replace('$', '').replace(',', '')
+        club_price = bike.find('span', class_='special-price').text.strip().replace('$', '').replace(',', '')
         bike_class = 'mountain'
 
         bikes_list.append({
@@ -52,8 +52,8 @@ for i in range(1, 3):
 
     for bike in bikes:
         bike_name = bike.find('strong', class_='product name product-item-name').text.strip()
-        full_price = bike.find('span', class_='full-price').text.strip().replace('$', '')
-        club_price = bike.find('span', class_='special-price').text.strip().replace('$', '')
+        full_price = bike.find('span', class_='full-price').text.strip().replace('$', '').replace(',', '')
+        club_price = bike.find('span', class_='special-price').text.strip().replace('$', '').replace(',', '')
         bike_class = 'hybrid'
 
         bikes_list.append({
@@ -65,4 +65,5 @@ for i in range(1, 3):
         })
 
 df = pd.DataFrame(bikes_list)
-#df.to_csv('99bikes_2024.csv', index=False)
+
+df.to_csv('99bikes_2024.csv', index=False)
