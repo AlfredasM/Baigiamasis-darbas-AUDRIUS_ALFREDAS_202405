@@ -41,7 +41,7 @@ X_train, X_test, y_train, y_test = train_test_split(data[features], data[target]
 X_train_preprocessed = preprocessor.fit_transform(X_train)
 X_test_preprocessed = preprocessor.transform(X_test)
 
-model = KerasClassifier(build_fn=create_model, epochs=10, batch_size=1, verbose=0)
+model = KerasClassifier(build_fn=create_model, epochs=20, batch_size=1, verbose=1)
 model._estimator_type = "classifier"
 history = model.fit(X_train_preprocessed, y_train)
 
@@ -64,7 +64,7 @@ print(f'Model accuracy: {accuracy:.4f}')
 sns.boxplot(data=data, x='Price_above_median', y='product_class', color='violet')
 plt.figure(figsize=(12, 10))
 plt.title('Kainu klasifikacija pagal produktu klases Auksta / Vidutine / Zema')
-plt.xticks([0, 1], ['Zemiau uz vidutine\nkaina', 'Auksciau uz vidutine\nkaina'])
+plt.xticks([0, 1], ['Zemiau uz vidutine\n kaina', 'Auksciau uz vidutine\n kaina'])
 plt.show()
 
 if 'val_accuracy' in history.history_:
