@@ -15,17 +15,17 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         * duomenu rinkinio apzvalga
 ![img_1.png](img_1.png)
 
-        * visu pardavimu skaicius
+        * visu pardavimu skaicius ir vidutine kaina pagal dviraciu tipa (Kalnu, plentinis, hibridas, turistinis)
 ![img_10.png](img_10.png)
 
-        * pardavimu skaicius pagal menesius
+        * pardavimu skaicius pagal menesius (grafikas)
 ![img_2.png](img_2.png)
 
-        * pardavimu skaicius pagal dviraciu tipus
+        * pardavimu skaicius pagal dviraciu tipus (grafinis atvaizdavimas)
 ![img_3.png](img_3.png)
 
         
-        * pardavimus skaicius pagal dviraciu klalses
+        * pardavimus skaicius pagal dviraciu klalses (grafinis atvaizdavimas)
 ![img_4.png](img_4.png)
         
         * sujungiame tris skirtintgus excel sheet (pardavimu ir klientu duomenu pagal kliento_id, gyvenoji vieta),
@@ -99,5 +99,45 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
         
 
 
-Išvados, komentarai/pasi?lymai, sunkumai su kuriais teko susidurti:
+    Išvados, komentarai/pasiulymai, sunkumai su kuriais teko susidurti:
+
+    Išvados:
+    
+    - Parduotyves metine apyvarta - 22 MLN. EUR
+    - Kas menesi parduodamos produkcijos ~ 2 MLN. EUR
+    - Birzeli ir rugseji pastebimi nezymus pardavimu kritimai.
+    - Iš grafikų matome kad didziausia marža vidutinės klasės dviračiu.
+    - Vyrų ir moterų dviračiu pirkimas praktiškai 50/50.
+    - Pasiskirstymas pagal regiona labai akivaizdus, kad daugiausia nuperkama dviraciu kur gyventoju tankumas,
+        yra didziausias, o ne didziausias plotas teritorijos.
+    - Pirkimo pasiskirstymas pagal pirkeju metus : matome aiskiai 3 isskirtas grupes, ir kad jaunesni zmones perka
+        brangesnius dviracius labiau. 
+    - Didziausia itaka kainai daro : 
+                            1- Gamintojas,
+                            2- Pirkejo gimimo metai,
+                            3- Dviracio dydis
+                            4- Dviracio klase
+
+    - Pagal aksesuaru ir daliu pirkima jaunesni zmones siek tiek daugiau atliko pirkimu per 3 metus po
+        dviracio pirkimo.
+    - Is ROC kreives matome kad pagal pirkimus 'ONLINE' ir fizinius  modelio tikslumas artimas 'aklam'
+        speliojimui, ir is pateiktu duomenu matome, kad modelis negalejo apsimokyti nes pirkimai yra ~ 50/50.
+    - Palyginus Scraping duomenis dviraciu tipų 2024m. ir 2017m 'dataset', matome kad dviaciai stipriai pabrango,
+        per 7 metus, bet reikalinga detalesne analize, nes atsirado labai daug elektriniu dviraciu, kas stipriai
+        kaina.
+    
+    Komentrai/pasiulymai:
+
+    - Darbo metu labai svarbu planuotis laika, nes vien duomenu valymui galima sugaisti visa savaite, siekant idealumo,
+        turint ribota laika galima tvarkytis tik tuos duomenis su kuriais dirbama.
+    
+    Sunkumai:
+    - Su neuroniniais tinklais dar reiketu pagilinti zinias, sugaisome daugiausia laiko bet rezultatais,
+        nesame labai patentinti.
+
+        AČIŪ UŽ DĖMESĮ...
+
+    
+    
+    
 
