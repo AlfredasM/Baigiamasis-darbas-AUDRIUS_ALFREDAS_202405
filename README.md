@@ -29,8 +29,8 @@ Parduotuvės realus elektroninis adresas : ( https://www.99bikes.com.au/ )
         * pardavimus skaičius pagal dviračiu klases (grafinis atvaizdavimas)
 ![img_40.png](img_40.png)
         
-        * sujungiame tris skirtingus 'excel sheet' (pardavimų ir klientų duomenų pagal 'kliento_id' ir gyvenamąją vietą
-            pagal 'kliento_id'), kad galėtume analizuoti duomenis su daugiau parametrų.
+        * sujungiame tris skirtingus 'excel sheet' (pardavimų ir klientų duomenų pagal
+        'kliento_id' ir gyvenamąją vietą pagal 'kliento_id'), kad galėtume analizuoti duomenis su daugiau parametrų.
 
 ![img_17.png](img_17.png)
      
@@ -55,8 +55,8 @@ Parduotuvės realus elektroninis adresas : ( https://www.99bikes.com.au/ )
         * Kmeans metodas
 ![img_36.png](img_36.png)
 
-        * DBscan metodas taip pat paskaičiuojamas geriausias clusters kiekis pagal Elbow (su keliais bandymais
-            gaunamas 2-3 optimalus cl. skaičius)
+        * DBscan metodas taip pat paskaičiuojamas geriausias clusters kiekis pagal Elbow
+    (su keliais bandymais gaunamas 2-3 optimalus cl. skaičius)
 ![img_47.png](img_47.png)
 
     *DBSCAN metodui Elbow grafikas
