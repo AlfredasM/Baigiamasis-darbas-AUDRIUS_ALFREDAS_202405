@@ -128,11 +128,11 @@ Parduotuvės realus elektroninis adresas : ( https://www.99bikes.com.au/ )
 
     - Pasiskirstymas pagal regioną labai akivaizdus, daugiausia nuperkama dviračių kur gyventojų tankumas
         yra didžiausias (Sidnėjus - didžiausias Australijos miestas), o ne didžiausias  teritorijos plotas. 
-        (galima būtų plėsti pardavimus į SouthAustralia regioną, logistiškai tinkamoje, taip pat didinti reklama
-        Victoria regione ir Queensland regione)
+        (galima būtų plėsti pardavimus į SouthAustralia regioną, logistiškai tinkamoje, taip pat didinti
+        reklama Victoria regione ir Queensland regione)
 
-    - Pirkimo pasiskirstymas pagal pirkėjų amžių : matome aiškiai 3 išskirtas grupes, ir kad jaunesni žmonės labiau
-        perka brangesnius dviračius.
+    - Pirkimo pasiskirstymas pagal pirkėjų amžių : matome aiškiai 3 išskirtas grupes, ir kad jaunesni
+        žmonės labiau perka brangesnius dviračius.
     
     - Didžiausią įtaką kainai daro : 
                             1- Gamintojas ('brand'),
@@ -145,13 +145,14 @@ Parduotuvės realus elektroninis adresas : ( https://www.99bikes.com.au/ )
         siuntinėti reklamą)
 
     - Iš ROC kreives matome kad pagal pirkimus 'ONLINE' ir fizinius  modelio tikslumas artimas 'aklam'
-        spėliojimui, ir iš pateiktų (apskaičiuotų) duomenų matome, kad modelis negalėjo apsimokyti, nes pirkimai
-        yra ~ 50%/50%.
+        spėliojimui, ir iš pateiktų (apskaičiuotų) duomenų matome, kad modelis negalėjo apsimokyti, nes
+        pirkimai yra ~ 50%/50%.
 
-    - Palyginus Scraping duomenis dviračių tipų 2024m. ir 2017m 'dataset' matome, kad dviračiai stipriai pabrango,
-        per 7 metus, bet reikalinga detalesne analizė, nes atsirado labai daug elektrinių dviračių, kas labai stipriai
-        įtakoja kainą. Parinkome dviračių tipą kuriame mažiausiai elektrinių dviračių segmente, ir 2017 m. 2024 m.
-        kainų kilimas tiksliausias. (Matoma, kad vienodo tipo dviračių kainų kilimas rinkoje ~ 10%)
+    - Palyginus Scraping duomenis dviračių tipų 2024m. ir 2017m 'dataset' matome, kad dviračiai stipriai
+        pabrango, per 7 metus, bet reikalinga detalesne analizė, nes atsirado labai daug elektrinių
+        dviračių, kas labai stipriai įtakoja kainą. Parinkome dviračių tipą kuriame mažiausiai elektrinių
+        dviračių segmente, ir 2017 m. 2024 m. kainų kilimas tiksliausias. (Matoma, kad vienodo tipo
+        dviračių kainų kilimas rinkoje ~ 10%)
     
     Komentarai / pasiūlymai:
 
