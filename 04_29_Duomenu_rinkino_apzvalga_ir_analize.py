@@ -46,7 +46,7 @@ ax.tick_params(axis='y', labelcolor=color)
 ax.set_xticks(range(len(vidutine_kaina_pagal_dviraciu_tipa.index)))
 ax.set_xticklabels(vidutine_kaina_pagal_dviraciu_tipa.index, rotation=20, ha='right')
 
-ax1 = ax.twinx() #kai norime vaizduoti du matavimo vienetus vienoje grafoje
+ax1 = ax.twinx() 
 color = 'tab:cyan'
 ax1.set_ylabel('Average prime cost EUR', color=color)
 bars2 = ax1.bar(range(len(vidutine_kaina_pagal_dviraciu_tipa.index)), vidutine_kaina_pagal_dviraciu_tipa['standard_cost'],
