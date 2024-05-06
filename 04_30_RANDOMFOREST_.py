@@ -55,8 +55,8 @@ importances = clf.feature_importances_
 indices = np.argsort(importances)[::-1]
 
 plt.figure(figsize=(16, 6))
-plt.title('Parametru itaka kainai')
-plt.xlabel('Svarbumas')
-plt.ylabel('Parametras')
-sns.barplot(x=importances[indices], y=X_train.columns[indices])
+plt.title('Parameters importance factor for price')
+plt.xlabel('Importance')
+plt.ylabel('Parameters')
+sns.barplot(x=importances[indices], y=X_train.columns[indices], color='purple', alpha=0.5)
 plt.show()

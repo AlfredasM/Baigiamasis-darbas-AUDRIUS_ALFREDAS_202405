@@ -19,14 +19,14 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 ![img_10.png](img_10.png)
 
         * pardavimu skaicius pagal menesius (grafikas)
-![img_2.png](img_2.png)
+![img_32.png](img_32.png)
 
         * pardavimu skaicius pagal dviraciu tipus (grafinis atvaizdavimas)
-![img_3.png](img_3.png)
+![img_33.png](img_33.png)
 
         
         * pardavimus skaicius pagal dviraciu klalses (grafinis atvaizdavimas)
-![img_4.png](img_4.png)
+![img_34.png](img_34.png)
         
         * sujungiame tris skirtintgus excel sheet (pardavimu ir klientu duomenu pagal kliento_id, gyvenoji vieta),
         kada galetume analizuoti duomenis pagal daugiau parametru
@@ -40,7 +40,7 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 
 
         * pirkimu skaicius pagal lyti ir pagal apskritis grafikas
-![img_7.png](img_7.png)
+![img_35.png](img_35.png)
 
         * apskriciu zemelapis
 ![img_8.png](img_8.png)
@@ -50,23 +50,23 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 
      - duomenu rinkinio analaize naudojant masininio mokymo metodus:
 
-        * Kmeans
-![img_18.png](img_18.png)
+        * Kmeans metodas
+![img_36.png](img_36.png)
 
-        * DBscan taip pat paskaiciuojamas geriausias clusters kiekis pagal Elbow (su keliais bandymais gaunamas 1-2 optimalus skaicius)
-![img_19.png](img_19.png)
+        * DBscan metodas taip pat paskaiciuojamas geriausias clusters kiekis pagal Elbow (su keliais bandymais gaunamas 1-2 optimalus skaicius)
+![img_37.png](img_37.png)
 
     *DBSCAN metodui Elbow grafikas
 ![img_20.png](img_20.png)
 
-        * RandomForest
-![img_11.png](img_11.png)
+        * RandomForest metodas
+![img_31.png](img_31.png)
 
-        * AgglomerativeClustering
-![img_14.png](img_14.png)
+        * AgglomerativeClustering metodas
+![img_38.png](img_38.png)
 
-        * LinearRegression
-![img_22.png](img_22.png)
+        * LinearRegression metodas
+![img_39.png](img_39.png)
 
     - MSE, RMSE, R2 (metrikos - 'Mean squared error', 'Root Mean Squared Error', 'R-squared )
 ![img_21.png](img_21.png)
@@ -77,7 +77,14 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 ![img_16.png](img_16.png)
 
         * Dviraciu kainu palyginimas 2017 metu ir 2024 metu (naudojant Scraping realiu kainu surinkimui)
-![img_24.png](img_24.png)
+
+    -Grafinis atvaizdavimas 2017 metu ir 2024 metu
+
+![img_6.png](img_6.png)
+
+    -Skaiciavimas
+
+![img_30.png](img_30.png)
 
 
 

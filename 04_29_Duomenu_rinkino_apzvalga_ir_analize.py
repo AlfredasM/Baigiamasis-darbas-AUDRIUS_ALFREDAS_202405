@@ -19,12 +19,12 @@ pardavimai_kas_menesi = df.groupby('month')['list_price'].sum()
 
 plt.figure(figsize=(10, 6))
 pardavimai_kas_menesi.plot(kind='bar', color="red")
-plt.title('Pardavimų sumos pagal menesiu')
-plt.xlabel('Menesiai')
-plt.ylabel('Pardavimu suma pagal men MLN.EUR')
+plt.title('Sales by Month')
+plt.xlabel('Months')
+plt.ylabel('Sales by Month MLN.EUR')
 plt.legend()
-plt.xticks(range(0, 12), ['Sausis','Vasaris','Kovas','Balandis','Geguze',
-                            'Birzelis','Liepa','Rugpjutis','Rugsejis','Spalis','Lapkritis','Gruodis'])
+plt.xticks(range(0, 12), ['January', 'February', 'March', 'April', 'May',
+                             'June','July','August','September','October','November','December'])
 plt.xticks(rotation=20)
 plt.show()
 
@@ -39,7 +39,7 @@ print(vidutine_kaina_pagal_dviraciu_tipa)
 
 fig, ax = plt.subplots(figsize=(14,8))
 color = 'tab:purple'
-ax.set_xlabel('Dviraciu tipai ')
+ax.set_xlabel('Bicycle types')
 ax.set_ylabel('Midle sale price EUR', color=color)
 bars = ax.bar(vidutine_kaina_pagal_dviraciu_tipa.index, vidutine_kaina_pagal_dviraciu_tipa['list_price'], alpha = 0.6, label='Average price', color=color)
 ax.tick_params(axis='y', labelcolor=color)
@@ -49,12 +49,12 @@ ax.set_xticklabels(vidutine_kaina_pagal_dviraciu_tipa.index, rotation=20, ha='ri
 
 ax1 = ax.twinx() #kai norime vaizduoti du matavimo vienetus vienoje grafoje
 color = 'tab:cyan'
-ax1.set_ylabel('Prime cost EUR', color=color)
+ax1.set_ylabel('Average prime cost EUR', color=color)
 bars2 = ax1.bar(range(len(vidutine_kaina_pagal_dviraciu_tipa.index)), vidutine_kaina_pagal_dviraciu_tipa['standard_cost'],
-                color=color, alpha=0.4, width=0.4, label='Vidutine savikaina')
+                color=color, alpha=0.4, width=0.4, label='Average prime cost')
 ax1.tick_params(axis='y', labelcolor=color)
 #plt.savefig('average_metrics.png')
-plt.title('Dviraciu tipu pasiskirstymas tarp savikainos ir pardavimo kainos')
+plt.title('Bicycle types compare between sale price and  prime cost')
 plt.show()
 
 
@@ -65,8 +65,8 @@ print(vidutine_kaina_pagal_dviraciu_klase)
 
 fig, ax = plt.subplots(figsize=(14,8))
 color = 'tab:orange'
-ax.set_xlabel('Dviraciu klases ')
-ax.set_ylabel('Midle sale price EUR', color=color)
+ax.set_xlabel('Bicycle class')
+ax.set_ylabel('Average sale price EUR', color=color)
 bars = ax.bar(vidutine_kaina_pagal_dviraciu_klase.index, vidutine_kaina_pagal_dviraciu_klase['list_price'], alpha = 0.6, label='Average price', color=color)
 ax.tick_params(axis='y', labelcolor=color)
 
@@ -77,10 +77,10 @@ ax1 = ax.twinx() #kai norime vaizduoti du matavimo vienetus vienoje grafoje
 color = 'tab:green'
 ax1.set_ylabel('Prime cost EUR', color=color)
 bars2 = ax1.bar(range(len(vidutine_kaina_pagal_dviraciu_klase.index)), vidutine_kaina_pagal_dviraciu_klase['standard_cost'],
-                color=color, alpha=0.4, width=0.4, label='Vidutine savikaina')
+                color=color, alpha=0.4, width=0.4, label='Average ')
 ax1.tick_params(axis='y', labelcolor=color)
 #plt.savefig('average_metrics.png')
-plt.title('Dviraciu klasiu pasiskirstymas tarp savikainos ir pardavimo kainos')
+plt.title('Bicycle class compare between sale price and  prime cost')
 plt.show()
 
 

@@ -1,6 +1,7 @@
 import pandas as pd
 from matplotlib import pyplot as plt
 import seaborn as sns
+from scipy.cluster.hierarchy import linkage
 from sklearn.cluster import AgglomerativeClustering
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
@@ -26,18 +27,17 @@ print(menesio_pardavimai)
 scaler = StandardScaler()
 menesio_pardavimai_scaled = scaler.fit_transform(menesio_pardavimai)
 
-#linked_nuoma_sezonui_scaled = linkage(nuoma_sezonui.values.reshape(-1, 1), method='ward')
 
-agg_clust = AgglomerativeClustering(n_clusters=9, linkage='ward')
+agg_clust = AgglomerativeClustering(n_clusters=5, linkage='average')
 agg_clust.fit(menesio_pardavimai_scaled)
 
 silh_score = silhouette_score(menesio_pardavimai_scaled, agg_clust.labels_)
 print(silh_score)
 
 
-plt.scatter(menesio_pardavimai_scaled[:, 1], menesio_pardavimai_scaled[:, 2], c=agg_clust.labels_, edgecolor='k', s=50, cmap='viridis')
-plt.title("Pirkimai pagal AgglomerativeClustering n_cl-9")
-plt.xlabel("Menesis")
-plt.ylabel("Pirkimu aktyvumas")
+plt.scatter(menesio_pardavimai_scaled[:, 1], menesio_pardavimai_scaled[:, 2], c=agg_clust.labels_, edgecolor='k', s=20, cmap='viridis')
+plt.title("Purchases by AgglomerativeClustering n_cl-5")
+plt.xlabel("Mounths")
+plt.ylabel("Purchases activity")
 plt.colorbar(label='')
 plt.show()

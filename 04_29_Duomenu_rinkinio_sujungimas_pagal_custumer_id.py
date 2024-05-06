@@ -8,7 +8,7 @@ df3 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='CustomerAddress')
 
 # Sujungiame excelio tris datasheet
 data = pd.merge(pd.merge(df1, df2, on='customer_id'), df3, on='customer_id')
-#print(data)
+print(data.info())
 
 #sutvarkome duomenis
 data['gender'] = data['gender'].replace({'M': 'Male', 'Femal': 'Female', 'U': 'Unknown', 'F': 'Female'})
@@ -27,10 +27,10 @@ fig, axs = plt.subplots(1, 2, figsize=(14, 7))
 colors = ['orange', 'green', 'purple']
 
 axs[0].bar(kiek_pirko_pagal_lyti.index, kiek_pirko_pagal_lyti.values, color=colors)
-axs[0].set_xlabel('Moteris/Vyras/Nezinomas')
-axs[0].set_ylabel('Kiekis')
-axs[0].set_title('Pirkeju pasiskirstymas pagal lyti')
+axs[0].set_xlabel('Female/Male/Unknown')
+axs[0].set_ylabel('Quantity')
+axs[0].set_title('Customers by gender')
 
 axs[1].pie(pardavimai_pagal_apskritis, labels=pardavimai_pagal_apskritis.index, autopct='%1.1f%%', startangle=90)
-axs[1].set_title('Pirkeju pasiskirstymas pagal apskritis')
+axs[1].set_title('Customers by living place/state')
 plt.show()
