@@ -120,19 +120,19 @@ Parduotuvės realus elektroninis adresas : ( https://www.99bikes.com.au/ )
     - Kas mėnesį parduodamos produkcijos ~ 2 MLN. EUR
 
     - Birželį ir rugsėjį pastebimi nežymus pardavimu kritimai (galima butų tais mėnesiais, didinti reklamos apimtis,
-        arba taikyti akcijas, kad padidinti pardavimus).
+    arba taikyti akcijas, kad padidinti pardavimus).
 
     - Iš grafikų matome, kad didžiausia marža vidutinės klasės dviračių.
 
     - Vyrų ir moterų dviračiu pirkimas praktiškai 50%/50%.
 
     - Pasiskirstymas pagal regioną labai akivaizdus, daugiausia nuperkama dviračių kur gyventojų tankumas
-        yra didžiausias (Sidnėjus - didžiausias Australijos miestas), o ne didžiausias  teritorijos plotas. 
-        (galima būtų plėsti pardavimus į SouthAustralia regioną, logistiškai tinkamoje, taip pat didinti
-        reklama Victoria regione ir Queensland regione)
+    yra didžiausias (Sidnėjus - didžiausias Australijos miestas), o ne didžiausias  teritorijos plotas. 
+    (galima būtų plėsti pardavimus į SouthAustralia regioną, logistiškai tinkamoje, taip pat didinti
+    reklama Victoria regione ir Queensland regione)
 
     - Pirkimo pasiskirstymas pagal pirkėjų amžių : matome aiškiai 3 išskirtas grupes, ir kad jaunesni
-        žmonės labiau perka brangesnius dviračius.
+    žmonės labiau perka brangesnius dviračius.
     
     - Didžiausią įtaką kainai daro : 
                             1- Gamintojas ('brand'),
@@ -141,27 +141,27 @@ Parduotuvės realus elektroninis adresas : ( https://www.99bikes.com.au/ )
                             4- Dviračio klasė.
 
     - Pagal aksesuarų ir dalių pirkimą jaunesni žmonės šiek tiek daugiau atliko pirkimu per 3 metus po
-        dviračio pirkimo. (galima pagal metus siūlyti papildomas akcijas aksesuarų ir dalių,
-        siuntinėti reklamą)
+    dviračio pirkimo. (galima pagal metus siūlyti papildomas akcijas aksesuarų ir dalių,
+    siuntinėti reklamą)
 
     - Iš ROC kreives matome kad pagal pirkimus 'ONLINE' ir fizinius  modelio tikslumas artimas 'aklam'
-        spėliojimui, ir iš pateiktų (apskaičiuotų) duomenų matome, kad modelis negalėjo apsimokyti, nes
-        pirkimai yra ~ 50%/50%.
+    spėliojimui, ir iš pateiktų (apskaičiuotų) duomenų matome, kad modelis negalėjo apsimokyti, nes
+    pirkimai yra ~ 50%/50%.
 
     - Palyginus Scraping duomenis dviračių tipų 2024m. ir 2017m 'dataset' matome, kad dviračiai stipriai
-        pabrango, per 7 metus, bet reikalinga detalesne analizė, nes atsirado labai daug elektrinių
-        dviračių, kas labai stipriai įtakoja kainą. Parinkome dviračių tipą kuriame mažiausiai elektrinių
-        dviračių segmente, ir 2017 m. 2024 m. kainų kilimas tiksliausias. (Matoma, kad vienodo tipo
-        dviračių kainų kilimas rinkoje ~ 10%)
+    pabrango, per 7 metus, bet reikalinga detalesne analizė, nes atsirado labai daug elektrinių
+    dviračių, kas labai stipriai įtakoja kainą. Parinkome dviračių tipą kuriame mažiausiai elektrinių
+    dviračių segmente, ir 2017 m. 2024 m. kainų kilimas tiksliausias. (Matoma, kad vienodo tipo
+    dviračių kainų kilimas rinkoje ~ 10%)
     
     Komentarai / pasiūlymai:
 
     - Darbo metu labai svarbu planuotis laika, nes vien duomenų valymui galima sugaišti visą savaitę
-        (siekiant idealumo), turint ribotą laiką galima tvarkytis tik tuos duomenis su kuriais dirbama.
+    (siekiant idealumo), turint ribotą laiką galima tvarkytis tik tuos duomenis su kuriais dirbama.
         
     Sunkumai:
-    - Su neuroniniais tinklais dar reikėtų pagilinti žinias, sugaišome daugiausia laiko, bet rezultatais  nesame labai
-        patenkinti.
+    - Su neuroniniais tinklais dar reikėtų pagilinti žinias, sugaišome daugiausia laiko, bet rezultatais
+    nesame labai patenkinti.
 
         TIKRAI YRA KUR TOBULĖTI...
 
