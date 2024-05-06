@@ -23,9 +23,6 @@ data['DOB_YEAR'] = data['DOB_YEAR'].fillna(data['DOB_YEAR'].mean())
 data['gender'] = data['gender'].replace({'M': 'Male', 'Femal': 'Female', 'U': 'Unknown', 'F': 'Female'})
 data['state'] = data['state'].replace({'NSW': 'New South Wales', 'VIC': 'Victoria', 'QLD': 'Queensland'})
 
-size = data['product_size'].value_counts()
-
-
 
 label_encoder = LabelEncoder()
 data['gender'] = label_encoder.fit_transform(data['gender'])
