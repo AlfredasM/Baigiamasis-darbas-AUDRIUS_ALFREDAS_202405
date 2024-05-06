@@ -1,10 +1,7 @@
-import numpy as np
 import pandas as pd
 from sklearn.cluster import DBSCAN
-from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from sklearn.neighbors import NearestNeighbors
+from sklearn.preprocessing import StandardScaler
 from kmodes.kmodes import KModes
 
 df1 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='Transactions')
@@ -24,7 +21,7 @@ BIKE_SALES = data[['list_price', 'standard_cost']]
 
 cost =[]
 
-K = range(1, 20)
+K = range(1, 5)
 for num_clusters in list(K):
     kmode = KModes(n_clusters=num_clusters, init="random", n_init=5, verbose=1)
     kmode.fit_predict(BIKE_SALES)
@@ -43,7 +40,7 @@ clusters = dbscan.fit_predict(X_scaled)
 data['cluster'] = clusters
 
 plt.figure(figsize=(10, 6))
-plt.scatter(data['list_price'], data['standard_cost'], c=data['cluster'], cmap='viridis')
+plt.scatter(data['list_price'], data['standard_cost'], c=data['cluster'], cmap='rainbow')
 plt.scatter(data['list_price'][clusters == -1], data['standard_cost'][clusters == -1], c='red', marker='x', label='Noise')
 plt.title("Sales grouping by /'list_price'/ and /'prime_cost'/  DBSCAN METHOD")
 plt.xlim(100)

@@ -6,7 +6,6 @@ from sklearn.metrics import classification_report, accuracy_score
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import seaborn as sns
 import matplotlib.pyplot as plt
-from ucimlrepo import fetch_ucirepo
 import numpy as np
 
 df1 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='Transactions')

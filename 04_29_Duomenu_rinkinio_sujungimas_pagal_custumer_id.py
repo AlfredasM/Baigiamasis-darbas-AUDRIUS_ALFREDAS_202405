@@ -1,6 +1,5 @@
 import pandas as pd
 from matplotlib import pyplot as plt
-import seaborn as sns
 
 df1 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='Transactions')
 df2 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='CustomerDemographic')

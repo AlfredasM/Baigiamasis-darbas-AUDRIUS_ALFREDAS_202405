@@ -1,12 +1,11 @@
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from math import sqrt
-from sklearn.model_selection import KFold, cross_val_score
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.preprocessing import LabelEncoder
 
 df1 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='Transactions')
 df2 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='CustomerDemographic')

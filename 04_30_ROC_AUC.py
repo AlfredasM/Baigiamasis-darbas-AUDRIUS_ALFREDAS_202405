@@ -1,15 +1,10 @@
-import numpy as np
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_curve, auc
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-from sklearn.model_selection import KFold, cross_val_score
-from sklearn import preprocessing
-from sklearn import utils
+from sklearn.preprocessing import LabelEncoder
+
 
 
 df1 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='Transactions')

@@ -2,9 +2,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
+
 
 df1 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='Transactions')
 df2 = pd.read_excel('99Bikers_Raw_data.xlsx', sheet_name='CustomerDemographic')

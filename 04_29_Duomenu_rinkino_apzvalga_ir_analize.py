@@ -1,7 +1,6 @@
 import pandas as pd
 from matplotlib import pyplot as plt
-import seaborn as sns
-from sklearn.feature_extraction.text import TfidfVectorizer
+
 
 df = pd.read_excel('99Bikers_Raw_data.xlsx')
 DataFrame_info = df.info()
