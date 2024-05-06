@@ -1,5 +1,4 @@
 from matplotlib import pyplot as plt
-import seaborn as sns
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 import pandas as pd
@@ -41,7 +40,7 @@ X_train, X_test, y_train, y_test = train_test_split(data[features], data[target]
 X_train_preprocessed = preprocessor.fit_transform(X_train)
 X_test_preprocessed = preprocessor.transform(X_test)
 
-model = KerasClassifier(build_fn=create_model, epochs=20, batch_size=1, verbose=1)
+model = KerasClassifier(build_fn=create_model, epochs=5, batch_size=1, verbose=1)
 model._estimator_type = "classifier"
 history = model.fit(X_train_preprocessed, y_train)
 
@@ -51,21 +50,15 @@ val_accuracy = model.score(X_train_preprocessed, y_train)
 train_loss = model.score(X_train_preprocessed, y_train)
 
 plt.figure(figsize=(10, 8))
-plt.title('Tikslumo ir nuostoliu priklausomybe nuo epohu')
-plt.plot(history.history_['accuracy'], label='Tikslumas')
-plt.plot(history.history_['loss'], label='Nuostoliai')
-plt.xlabel('Epohos')
-plt.ylabel('Tikslumas')
+plt.title('Accuracy and loss by epoch')
+plt.plot(history.history_['accuracy'], label='Accuracy')
+plt.plot(history.history_['loss'], label='Loss')
+plt.xlabel('Epoch')
+plt.ylabel('Accuracy')
 plt.legend(loc='best')
 plt.show()
 
 print(f'Model accuracy: {accuracy:.4f}')
-
-sns.boxplot(data=data, x='Price_above_median', y='product_class', color='violet')
-plt.figure(figsize=(12, 10))
-plt.title('Kainu klasifikacija pagal produktu klases Auksta / Vidutine / Zema')
-plt.xticks([0, 1], ['Zemiau uz vidutine\n kaina', 'Auksciau uz vidutine\n kaina'])
-plt.show()
 
 if 'val_accuracy' in history.history_:
     accuracy = history.history_['val_accuracy'][-1]

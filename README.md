@@ -91,14 +91,16 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
      - duomenu rinkinio analize naudojant neuroninius tinklus:
 
         * KerasClassifier
-![img_26.png](img_26.png)
+![img_41.png](img_41.png)
     
-    Model accuracy: 0.8027
+    Model accuracy: 0.7999
+    
+    - Modelio tikslumas
+![img_42.png](img_42.png)
 
-![img_28.png](img_28.png)
+    - Modelio nuostoliai
 
-![img_29.png](img_29.png)
-    -
+![img_43.png](img_43.png)
 
 
 
@@ -110,7 +112,7 @@ Duomenu parduotuves realus elektronis adresas : ( https://www.99bikes.co.uk/ )
 
     Išvados:
     
-    - Parduotyves metine apyvarta - 22 MLN. EUR
+    - Parduotyvės metinė apyvarta - 22 MLN. EUR
     - Kas menesi parduodamos produkcijos ~ 2 MLN. EUR
     - Birzeli ir rugseji pastebimi nezymus pardavimu kritimai.
     - Iš grafikų matome kad didziausia marža vidutinės klasės dviračiu.
